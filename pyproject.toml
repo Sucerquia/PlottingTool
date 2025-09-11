@@ -1,0 +1,33 @@
+[project]
+name = "PlotterTool"
+version = "1.0.0-alpha"
+description = "<TODO: add a short description>"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    { name = "PlotterTool", email = "dsucerg@gmail.com" }
+]
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License (GPL)",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "pytest",
+    "sphinx"
+]
+
+[project.scripts]
+PlotterTool = "PlotterTool.cli.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.sh"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+

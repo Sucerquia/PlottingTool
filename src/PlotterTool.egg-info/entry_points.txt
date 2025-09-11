@@ -1,0 +1,2 @@
+[console_scripts]
+PlotterTool = PlotterTool.cli.main:main
