@@ -2,4 +2,4 @@
 :align: center
 graph TD
 node1[""]
-click node1 "modules/..src.PlotterTool.html" _self
+click node1 "modules/..src.PlottingTool.html" _self

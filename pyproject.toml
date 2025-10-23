@@ -1,11 +1,11 @@
 [project]
-name = "PlotterTool"
+name = "PlottingTool"
 version = "1.0.0-alpha"
 description = "<TODO: add a short description>"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    { name = "PlotterTool", email = "dsucerg@gmail.com" }
+    { name = "PlottingTool", email = "dsucerg@gmail.com" }
 ]
 requires-python = ">=3.9"
 classifiers = [
@@ -19,7 +19,7 @@ dependencies = [
 ]
 
 [project.scripts]
-PlotterTool = "PlotterTool.cli.main:main"
+PlottingTool = "PlottingTool.cli.main:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

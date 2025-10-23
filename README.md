@@ -1,4 +1,4 @@
-# PlotterTool
+# PlottingTool
 
 This is a matplotlib wrapp package for creation of scientific figures.
 
@@ -7,8 +7,8 @@ This is a matplotlib wrapp package for creation of scientific figures.
 In your terminal, run:
 
 ```bash
-git clone git@github.com:Sucerquia/PlotterTool.git
-cd PlotterTool
+git clone git@github.com:Sucerquia/PlottingTool.git
+cd PlottingTool
 pip install -e .
 ```
 

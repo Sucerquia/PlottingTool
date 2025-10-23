@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: PlottingTool
+Version: 1.0.0a0
+Summary: <TODO: add a short description>
+Author-email: PlottingTool <dsucerg@gmail.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pytest
+Requires-Dist: sphinx
+
+# PlottingTool
+
+This is a matplotlib wrapp package for creation of scientific figures.
+
+# Installation
+
+In your terminal, run:
+
+```bash
+git clone git@github.com:Sucerquia/PlottingTool.git
+cd PlottingTool
+pip install -e .
+```
+
+**NOTE**
+This code is still under development and the first stable version hasn't been released.
