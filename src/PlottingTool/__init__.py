@@ -332,12 +332,12 @@ class StandardPlotter:
             ax.yaxis.offsetText.set_fontsize(mpl.rcParams['font.size']
                                              * pref['ticks_scale'])
             formatter = mticker.ScalarFormatter(useMathText=True)
-            formatter.set_powerlimits((-2, 2))
+            formatter.set_powerlimits((-1, 1))
             ax.yaxis.set_major_formatter(formatter)
         else:
             formatter = mticker.ScalarFormatter(useMathText=False)
             ax.yaxis.set_major_formatter(formatter)
-            ax.ticklabel_format(useOffset=False)
+            # ax.ticklabel_format(useOffset=False)
         if pref['xlim'] is not None:
             ax.set_xlim(pref['xlim'])
         if pref['ylim'] is not None:
