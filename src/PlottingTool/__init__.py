@@ -230,6 +230,8 @@ class StandardPlotter:
         else:
             self.layer += [len(self.ax) + 1]
             newax.set_zorder(self.layer[-1])
+            newax.set_xlim([0, 1])
+            newax.set_ylim([0, 1])
             self.ax = np.append(self.ax, newax)
         # TODO: update space[0] such that takes into account new axes.
 
@@ -337,7 +339,6 @@ class StandardPlotter:
         else:
             formatter = mticker.ScalarFormatter(useMathText=False)
             ax.yaxis.set_major_formatter(formatter)
-            # ax.ticklabel_format(useOffset=False)
         if pref['xlim'] is not None:
             ax.set_xlim(pref['xlim'])
         if pref['ylim'] is not None:
